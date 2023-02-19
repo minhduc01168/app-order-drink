@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/edsuanhanvien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size10dp"
+        android:background="@color/colorWhite"
+        android:hint="@string/themnhanvien"
+        android:padding="@dimen/size10dp"
+        android:textColor="@color/colorGray"
+        android:textColorHint="@color/colorGray"
+        tools:ignore="Autofill,TextFields" />
+
+<Button
+        android:id="@+id/btnDongY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đồng ý"
+        android:layout_gravity="center"
+        android:background="@color/colorBackground"/>
+
+</LinearLayout>
