@@ -1,14 +1,11 @@
-Project được tạo bởi Android Studio 4.1.1.
-
-Project đã được test và tương thích với các bản Android Studio mới hơn (tính đến bản Android Studio 2020.3).
+Project đã được tạo và test với bản Android Studio 2021.3.1.
 
 Khi mở project lần đầu bằng Android Stuido, cần chờ một thời gian để Android Studio build Gradle.
 
 Nếu gặp lỗi "gradle project sync failed", hãy xóa 2 folder .gradle và .idea trong thư mục của project và mở lại bằng Android Studio.
 
 Các thiết bị đã được thử nghiệm:
-- Máy ảo: Pixel 5 - Android 11.0 - API: 30
-- Máy thật:
-+ Vivo Y55 - Android 6.0 - API: 23
-+ Vsmart Live -Android 10.0 - API: 29
-# app-order-drink
+- Máy ảo: Samsung galaxy S10- Android 9.0 - API: 28
+Máy thật:
+- Samsung A30 - Android 10.0 - API: 29
+- Vsmart Joy3 -Android 10.0 - API: 29
